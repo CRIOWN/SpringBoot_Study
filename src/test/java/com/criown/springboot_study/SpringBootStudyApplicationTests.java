@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import javax.activation.DataSource;
+import javax.annotation.Resource;
 import java.time.Period;
 
 @SpringBootTest
@@ -16,6 +18,10 @@ class SpringBootStudyApplicationTests {
 
     @Autowired
     private Person person;
+
+    //DI注入数据源
+    @Resource
+    DataSource dataSource;
 
     @Test
     void contextLoads() {

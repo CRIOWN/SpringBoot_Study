@@ -92,5 +92,26 @@ class SpringBootStudyApplicationTests {
 ```
 
 
-**5. thymeleaf**
+**5. thymeleaf模板引擎**
+写在templates下
 templates目录下所有页面只能通过Controller跳转
+html中使用 加th托管
+```html
+<div th:text="${msg}"></div>
+```
+
+**6. SpringMVC**
+```java
+//拓展SpringMVC配置
+@Configuration
+public class MvcConfig implements WebMvcConfigurer {
+//    视图解析器
+
+    //视图跳转
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        //当页面url为criown 跳转到 test_thymeleaf.html 的视图
+        registry.addViewController("/criown").setViewName("test_thymeleaf");
+    }
+}
+```
