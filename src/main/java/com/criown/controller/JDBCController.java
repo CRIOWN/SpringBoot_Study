@@ -1,4 +1,4 @@
-package com.criown.springboot_study.controller;
+package com.criown.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

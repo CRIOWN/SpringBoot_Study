@@ -2,45 +2,51 @@
   "groups": [
     {
       "name": "person",
-      "type": "com.criown.springboot_study.entity.Person",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "type": "com.criown.entity.Person",
+      "sourceType": "com.criown.entity.Person"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.criown.config.DruidConfig",
+      "sourceMethod": "druidDataSource()"
     }
   ],
   "properties": [
     {
       "name": "person.age",
       "type": "java.lang.Integer",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "sourceType": "com.criown.entity.Person"
     },
     {
       "name": "person.birth",
       "type": "java.util.Date",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "sourceType": "com.criown.entity.Person"
     },
     {
       "name": "person.dog",
-      "type": "com.criown.springboot_study.entity.Dog",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "type": "com.criown.entity.Dog",
+      "sourceType": "com.criown.entity.Person"
     },
     {
       "name": "person.happy",
       "type": "java.lang.Boolean",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "sourceType": "com.criown.entity.Person"
     },
     {
       "name": "person.lists",
       "type": "java.util.List<java.lang.Object>",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "sourceType": "com.criown.entity.Person"
     },
     {
       "name": "person.maps",
       "type": "java.util.Map<java.lang.String,java.lang.Object>",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "sourceType": "com.criown.entity.Person"
     },
     {
       "name": "person.name",
       "type": "java.lang.String",
-      "sourceType": "com.criown.springboot_study.entity.Person"
+      "sourceType": "com.criown.entity.Person"
     }
   ],
   "hints": []

@@ -1,4 +1,4 @@
-package com.criown.springboot_study.entity;
+package com.criown.entity;
 
 
 import lombok.AllArgsConstructor;

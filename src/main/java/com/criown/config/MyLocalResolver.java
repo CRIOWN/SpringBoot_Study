@@ -1,4 +1,4 @@
-package com.criown.springboot_study.config;
+package com.criown.config;
 
 import org.springframework.web.servlet.LocaleResolver;
 import org.thymeleaf.util.StringUtils;

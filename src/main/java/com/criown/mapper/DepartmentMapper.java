@@ -1,6 +1,6 @@
-package com.criown.springboot_study.mapper;
+package com.criown.mapper;
 
-import com.criown.springboot_study.entity.Department;
+import com.criown.entity.Department;
 
 import java.util.Collection;
 import java.util.HashMap;

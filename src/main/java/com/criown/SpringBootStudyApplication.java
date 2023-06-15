@@ -1,4 +1,4 @@
-package com.criown.springboot_study;
+package com.criown;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
